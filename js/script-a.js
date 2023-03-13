@@ -10,7 +10,7 @@ if (url.substring(0, 1) == `p`) {
 }
 
 if (url.substring(0, 1) == `i`) {
-    let urldef = `https://curious-croquembouche-3d49c2.netlify.app/pens-comp/img/${codigo}`
+    let urldef = `https://assets.eagleapp.com.br/pens-comp/img/${codigo}`
     console.log(urldef);
     document.getElementById('canva').innerHTML = `<img src="${urldef}" alt="Indisponivel" width="900">`
 }

@@ -2,6 +2,6 @@ const canvaprojetos=document.querySelector("#canva--projetos"),canvafotos=docume
         <a href="assets.html?p${link[b]}" class="corpo__projetos--link">Acessar!</a>
         <a href="${c}" class="corpo__projetos--nome">${nomeprojeto[b]}</a>
         <h2 class="corpo__projetos--h2">${autor[b]} - ${serie[b]}º Ano ${turma[b]}</h2>
-        </div>`})}function escrevendob(a,b){for(let c=0;c<b;)img.push(a[c].c[0].v),c++;console.log(img),img.forEach((a,b)=>{let c=`https://curious-croquembouche-3d49c2.netlify.app/pens-comp/img/${img[b]}`;canvafotos.innerHTML+=`<div class="corpo__fotos--div">
+        </div>`})}function escrevendob(a,b){for(let c=0;c<b;)img.push(a[c].c[0].v),c++;console.log(img),img.forEach((a,b)=>{let c=`https://assets.eagleapp.com.br/pens-comp/img/${img[b]}`;canvafotos.innerHTML+=`<div class="corpo__fotos--div">
         <img src="${c}" alt="Indisponivel" class="imgi">
         <a href="assets.html?i${img[b]}" class="corpo__projetos--link">Acessar!</a>`})}buscarid("1S3ksawCo-oSHZYewaRu68qo2hQCwI8JR5MYMs3TiUhk",0),buscarid("1bZUjA_aYo-vIYzw1G6srxEHgvSuK1BajB0XkxTB6aqY",1);
